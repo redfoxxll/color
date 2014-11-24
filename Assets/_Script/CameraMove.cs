@@ -49,12 +49,12 @@ public class CameraMove : MonoBehaviour {
 		}
 		Invoke ("SetMovable", 2.0f);
 	}
-	void OnTriggerExit(Collider other)
-	{
-		if (other.tag == "gateblock") {
-			GameObject.Destroy (GameObject.Find("Stage1"));
-				}
-	}
+//	void OnTriggerExit(Collider other)
+//	{
+//		if (other.tag == "gateblock") {
+//			GameObject.Destroy (GameObject.Find("Stage1"));
+//				}
+//	}
 	void SetMovable()
 	{
 		movable = true;

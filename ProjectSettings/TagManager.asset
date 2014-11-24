@@ -21,6 +21,7 @@ TagManager:
   - rightswitch
   - gateblock
   - StartButton
+  - StageLoop
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

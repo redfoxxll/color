@@ -29,7 +29,7 @@ public class TouchControl : MonoBehaviour {
 	void Start () {
 //		stagecreate = new Queue<Transform> ();
 		shootingballmode = 1;
-		ballnumber = 25;
+		ballnumber = 100;
 		ballmodecounter = 0;
 		touchable = false;
 		gameover = false;
