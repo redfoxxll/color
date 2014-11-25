@@ -37,7 +37,7 @@ public class pyramid_change : MonoBehaviour {
 		TouchControl.ballnumber += 3;
 		if (TouchControl.shootingballmode < 5) {
 						TouchControl.ballmodecounter++;
-						if (TouchControl.ballmodecounter == 3) {
+						if (TouchControl.ballmodecounter == 10) {
 								++TouchControl.shootingballmode;
 								TouchControl.ballmodecounter = 0;
 						}
