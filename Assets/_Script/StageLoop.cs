@@ -6,9 +6,10 @@ public class StageLoop : MonoBehaviour {
 	public Transform stage;
 	void OnTriggerEnter(Collider other)
 	{
-		if (other.tag != "StageLoop")
-						return;
-
-		Instantiate (stage, new Vector3 (other.transform.position.x, other.transform.position.y, other.transform.position.z + StageOffset),other.transform.rotation);
+		Debug.Log ("the collision "+other.tag);
+		if (other.tag == "StageLoop")
+			Instantiate (stage, new Vector3 (other.transform.position.x, other.transform.position.y, other.transform.position.z + StageOffset),other.transform.rotation);
+		else if(other.tag == "gateblock")
+			GameObject.Destroy (other.transform.parent.parent.parent.gameObject);
 	}
 }
