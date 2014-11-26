@@ -12,7 +12,9 @@ public class Longshatter : MonoBehaviour {
 	public Transform shatter8;
 	public Transform shatter9;
 	public Transform shatter10;
-	
+	public Transform shatter11;
+	public Transform shatter12;
+
 	void OnCollisionEnter(Collision collision)
 		//	void OnCollisionExit(Collision collision)
 	{
@@ -68,6 +70,16 @@ public class Longshatter : MonoBehaviour {
 			shatter9.rigidbody.AddForce (new Vector3 (0, -2, 1), ForceMode.VelocityChange);		
 		}
 		if (shatter10) 
+		{
+			shatter10.rigidbody.useGravity = true;
+			shatter10.rigidbody.AddForce (new Vector3 (0, -2, 1), ForceMode.VelocityChange);		
+		}
+		if (shatter11) 
+		{
+			shatter10.rigidbody.useGravity = true;
+			shatter10.rigidbody.AddForce (new Vector3 (0, -2, 1), ForceMode.VelocityChange);		
+		}
+		if (shatter12) 
 		{
 			shatter10.rigidbody.useGravity = true;
 			shatter10.rigidbody.AddForce (new Vector3 (0, -2, 1), ForceMode.VelocityChange);		
