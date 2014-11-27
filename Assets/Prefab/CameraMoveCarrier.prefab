@@ -316,8 +316,8 @@ AudioSource:
   m_GameObject: {fileID: 100008}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 2c2fa0da52f5de74288e5a5dc5c3c304, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -429,6 +429,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   crashball: {fileID: 400010, guid: 49acca0ea40434b48941e1fff20dbdcf, type: 2}
   cameraspeed: 8
+  canvas: {fileID: 22400004, guid: 85a952b2375da477190aef13c4e01525, type: 2}
+  sound: {fileID: 0}
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1

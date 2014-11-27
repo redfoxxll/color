@@ -1,10 +1,13 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class CameraMove : MonoBehaviour {
 	public Transform crashball;
 	public float cameraspeed;
 	private bool movable;
+	public Transform canvas;
+	public AudioClip sound;
 
 	void Start () {
 		movable = true;
@@ -15,16 +18,26 @@ public class CameraMove : MonoBehaviour {
 						RaycastHit hit = new RaycastHit ();
 						if (Physics.Raycast (ray, out hit)) {
 								if (hit.collider.tag == "StartButton") {
+					                    audio.Play();
 										transform.GetComponent<Animator> ().SetTrigger ("cameraenterscene");
 								}
 						}
 				}
 	}
+	
+	public void ButtonShow()
+	{
+		Transform button = (Transform)Instantiate (canvas);
+		Debug.Log ("the distance "+CameraMoveCarrier.distance);
+		button.FindChild("Button/Text").GetComponent<Text>().text = "distance: "+CameraMoveCarrier.distance.ToString();
+	}
 
 	public void SetMove(){
 		transform.parent.GetComponent<CameraMoveCarrier>().cameramove = true;
+		GameObject.Destroy (transform.FindChild ("smash-hit-banner/start_01").gameObject);
 		TouchControl.touchable = true;
 	}
+
 	void OnTriggerEnter(Collider other)
 	{
 		if (!movable)
