@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: SmashHit_BG_A_back
-  m_Shader: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 23, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -17,8 +17,8 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: c58ff285fd8a4474096282e68568f41d, type: 3}
-          m_Scale: {x: 1, y: 1}
+          m_Texture: {fileID: 2800000, guid: 661b6715e20f74f249156bdadd6ba959, type: 3}
+          m_Scale: {x: 1.5, y: 1.5}
           m_Offset: {x: 0, y: 0}
       data:
         first:
@@ -87,7 +87,7 @@ Material:
         first:
           name: _Cube
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 8900000, guid: 25793ebbbd111a7011005aba44295342, type: 2}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -98,7 +98,7 @@ Material:
       data:
         first:
           name: _Shininess
-        second: .078125
+        second: .0400076509
       data:
         first:
           name: _InvFade
@@ -107,11 +107,11 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .25665006, g: .742647052, b: .561655045, a: 1}
+        second: {r: .237132356, g: .860218108, b: .948529422, a: 1}
       data:
         first:
           name: _SpecColor
-        second: {r: .5, g: .5, b: .5, a: 1}
+        second: {r: .297037184, g: .899855375, b: .985294104, a: 1}
       data:
         first:
           name: _TintColor
