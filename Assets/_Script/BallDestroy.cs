@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class BallDestroy : MonoBehaviour {
-	public float downdelete;
+	public float delete1;
 //	public AudioClip sound;
 	// Use this for initialization
 	void Start () {
@@ -10,7 +10,7 @@ public class BallDestroy : MonoBehaviour {
 	}
 	void DestroyDetect()
 	{
-		if(transform.position.z < Camera.main.transform.position.z||transform.position.y < downdelete)
+		if(transform.position.z < Camera.main.transform.position.z||transform.position.y < delete1)
 			GameObject.Destroy (transform.gameObject);
 	}
 //	void OnCollisionEnter(Collision collision）
