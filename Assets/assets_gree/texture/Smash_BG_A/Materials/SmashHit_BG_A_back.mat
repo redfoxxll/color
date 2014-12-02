@@ -98,7 +98,7 @@ Material:
       data:
         first:
           name: _Shininess
-        second: .0400076509
+        second: .029146947
       data:
         first:
           name: _InvFade
@@ -107,11 +107,11 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .237132356, g: .860218108, b: .948529422, a: 1}
+        second: {r: .380622864, g: .941176474, b: .941176474, a: 1}
       data:
         first:
           name: _SpecColor
-        second: {r: .297037184, g: .899855375, b: .985294104, a: 1}
+        second: {r: .549307942, g: .647425652, b: .933823526, a: 1}
       data:
         first:
           name: _TintColor

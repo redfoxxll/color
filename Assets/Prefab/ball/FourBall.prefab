@@ -102,7 +102,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.150000006, y: 0, z: 0}
+  m_LocalPosition: {x: -.400000006, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400006}
@@ -114,7 +114,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -.150000006, z: 0}
+  m_LocalPosition: {x: 0, y: -.400000006, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400006}
@@ -126,7 +126,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: .150000006, z: 0}
+  m_LocalPosition: {x: -0, y: .400000006, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400006}
@@ -139,7 +139,7 @@ Transform:
   m_GameObject: {fileID: 100006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.9757688, y: 8.70291138, z: 15.6400003}
-  m_LocalScale: {x: .25, y: .25, z: .25}
+  m_LocalScale: {x: .280000001, y: .280000001, z: .280000001}
   m_Children:
   - {fileID: 400004}
   - {fileID: 400008}
@@ -154,7 +154,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .150000006, y: 0, z: 0}
+  m_LocalPosition: {x: .400000006, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400006}
@@ -338,6 +338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c232f2c84d3046e2bb520683128d70f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delete1: 0
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -349,6 +350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c232f2c84d3046e2bb520683128d70f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delete1: 0
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -360,6 +362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c232f2c84d3046e2bb520683128d70f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delete1: 0
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -371,6 +374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c232f2c84d3046e2bb520683128d70f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delete1: 0
 --- !u!135 &13500000
 SphereCollider:
   m_ObjectHideFlags: 1

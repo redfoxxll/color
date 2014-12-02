@@ -17,7 +17,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 596594552f932644b90d8d51293504df, type: 3}
+          m_Texture: {fileID: 2800000, guid: 9eed8dffafb25ce48ba1729f0572841e, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -66,14 +66,14 @@ Material:
         first:
           name: _Cubemap
         second:
-          m_Texture: {fileID: 8900000, guid: 3b86ce6d5981c400c83895667f70ad64, type: 2}
-          m_Scale: {x: .5, y: .5}
+          m_Texture: {fileID: 8900000, guid: 24e102750938263408bb8061a84f6866, type: 2}
+          m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
           name: _ReflAmount
-        second: .504999995
+        second: .398928583
     m_Colors:
       data:
         first:
@@ -82,4 +82,4 @@ Material:
       data:
         first:
           name: _MainTint
-        second: {r: .727941155, g: .727941155, b: .727941155, a: .70588237}
+        second: {r: .83088237, g: .843101203, b: .843101203, a: .960784316}
